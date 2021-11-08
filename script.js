@@ -1,4 +1,4 @@
-'use strict';
+//'use strict';
 
 // function getEvenNumbers(numbersArray){
 
@@ -47,3 +47,30 @@
 //   }
 
 // console.log(findOdd([1,2,2,3,3,3,4,3,3,3,2,2,1]));
+
+// function factorial(num) {
+//     let res = 1;
+//     let int = num;
+
+//     if (num < 0 || num > 12) {
+//       throw RangeError;
+//     } else if (num >= 3 && num <= 12) {
+//         for (let i = 2; i <= int; i++) {
+//             res *= i;
+//         };
+//         return res;
+//     } else if (num === 0 || num === 1) {
+//         return 1;
+//     } else if (num === 2) {
+//         return 2;
+//     };
+// };
+
+// console.log(factorial(0));
+// console.log(factorial(1));
+// console.log(factorial(2));
+// console.log(factorial(3));
+// console.log(factorial(4));
+// console.log(factorial(5));
+// console.log(factorial(13));
+// console.log(factorial(-1));
